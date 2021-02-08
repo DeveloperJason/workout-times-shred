@@ -1,0 +1,16 @@
+PODS:
+  - Firebolt (0.4.7)
+
+DEPENDENCIES:
+  - Firebolt
+
+SPEC REPOS:
+  trunk:
+    - Firebolt
+
+SPEC CHECKSUMS:
+  Firebolt: f2d8843d2e3c86f18abeec3920fd01608aad8f8f
+
+PODFILE CHECKSUM: 296ea946cae0db86689a1bb138c7ccea7e28e989
+
+COCOAPODS: 1.9.1

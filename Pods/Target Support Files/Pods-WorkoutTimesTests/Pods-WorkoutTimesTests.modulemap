@@ -1,0 +1,6 @@
+framework module Pods_WorkoutTimesTests {
+  umbrella header "Pods-WorkoutTimesTests-umbrella.h"
+
+  export *
+  module * { export * }
+}

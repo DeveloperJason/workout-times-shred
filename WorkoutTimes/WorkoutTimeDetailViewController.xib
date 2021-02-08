@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="17701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17703"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="WorkoutTimeDetailViewController" customModule="WorkoutTimes" customModuleProvider="target">
+            <connections>
+                <outlet property="durationTextField" destination="2i4-ne-une" id="TZQ-7A-GwR"/>
+                <outlet property="nameLabel" destination="MGb-Xc-xmz" id="OMZ-ar-9Qo"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="dVz-WT-dp3">
+                    <rect key="frame" x="62" y="370" width="290" height="156.5"/>
+                    <subviews>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Workout Duration" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="QDs-nk-vzJ">
+                            <rect key="frame" x="0.0" y="86.5" width="290" height="21"/>
+                            <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
+                            <nil key="textColor"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="MGb-Xc-xmz">
+                            <rect key="frame" x="0.0" y="36" width="290" height="20.5"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                            <nil key="textColor"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Workout Name" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="k9b-m3-ykS">
+                            <rect key="frame" x="0.0" y="0.0" width="290" height="21"/>
+                            <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
+                            <nil key="textColor"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="0.0" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="2i4-ne-une">
+                            <rect key="frame" x="85" y="122.5" width="120" height="34"/>
+                            <constraints>
+                                <constraint firstAttribute="width" constant="120" id="6mQ-d9-ngm"/>
+                            </constraints>
+                            <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                            <textInputTraits key="textInputTraits" keyboardType="decimalPad"/>
+                        </textField>
+                    </subviews>
+                    <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    <constraints>
+                        <constraint firstAttribute="bottom" secondItem="2i4-ne-une" secondAttribute="bottom" id="1XR-PK-2i9"/>
+                        <constraint firstItem="2i4-ne-une" firstAttribute="top" secondItem="QDs-nk-vzJ" secondAttribute="bottom" constant="15" id="1rg-fF-Rge"/>
+                        <constraint firstAttribute="trailing" secondItem="MGb-Xc-xmz" secondAttribute="trailing" id="4N3-zo-YKZ"/>
+                        <constraint firstItem="k9b-m3-ykS" firstAttribute="top" secondItem="dVz-WT-dp3" secondAttribute="top" id="9jw-jC-mWG"/>
+                        <constraint firstItem="k9b-m3-ykS" firstAttribute="leading" secondItem="dVz-WT-dp3" secondAttribute="leading" id="DrN-FO-y3h"/>
+                        <constraint firstItem="MGb-Xc-xmz" firstAttribute="top" secondItem="k9b-m3-ykS" secondAttribute="bottom" constant="15" id="MCf-Ds-bQC"/>
+                        <constraint firstItem="QDs-nk-vzJ" firstAttribute="leading" secondItem="dVz-WT-dp3" secondAttribute="leading" id="UjA-vo-pyf"/>
+                        <constraint firstAttribute="trailing" secondItem="k9b-m3-ykS" secondAttribute="trailing" id="gjE-th-qgG"/>
+                        <constraint firstItem="2i4-ne-une" firstAttribute="centerX" secondItem="dVz-WT-dp3" secondAttribute="centerX" id="grW-bw-iIr"/>
+                        <constraint firstItem="MGb-Xc-xmz" firstAttribute="leading" secondItem="dVz-WT-dp3" secondAttribute="leading" id="qqU-uy-HYj"/>
+                        <constraint firstAttribute="trailing" secondItem="QDs-nk-vzJ" secondAttribute="trailing" id="to4-DX-c1D"/>
+                        <constraint firstItem="QDs-nk-vzJ" firstAttribute="top" secondItem="MGb-Xc-xmz" secondAttribute="bottom" constant="30" id="zuD-cC-8WV"/>
+                    </constraints>
+                </view>
+            </subviews>
+            <viewLayoutGuide key="safeArea" id="fnl-2z-Ty3"/>
+            <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+            <constraints>
+                <constraint firstItem="dVz-WT-dp3" firstAttribute="width" secondItem="fnl-2z-Ty3" secondAttribute="width" multiplier="0.7" id="AMb-qh-OZz"/>
+                <constraint firstItem="dVz-WT-dp3" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="R6s-Sj-FTP"/>
+                <constraint firstItem="dVz-WT-dp3" firstAttribute="centerY" secondItem="i5M-Pr-FkT" secondAttribute="centerY" id="pHA-SJ-N0u"/>
+            </constraints>
+            <point key="canvasLocation" x="137.68115942028987" y="114.50892857142857"/>
+        </view>
+    </objects>
+    <resources>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>

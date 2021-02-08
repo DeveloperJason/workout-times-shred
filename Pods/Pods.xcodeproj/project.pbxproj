@@ -1,0 +1,860 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		05CDF14D3D2AC162B1D60E2401234B29 /* MockResolver.swift in Sources */ = {isa = PBXBuildFile; fileRef = 064B81CDA51E120FA9896D379DA9F29F /* MockResolver.swift */; };
+		07B16B44BD2C305CA075C3CE64FD809E /* Firebolt-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 62D05DBC9271767D1F24C3E110B73A14 /* Firebolt-dummy.m */; };
+		24ACDE78AC2E2476403CDEB323DA8652 /* ResolverProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = F01222FF9AB5B13BDDFFA56EB1C66E4F /* ResolverProtocol.swift */; };
+		30B9AC0483EE59691EBD2C1623D6A1F0 /* Box.swift in Sources */ = {isa = PBXBuildFile; fileRef = 143848557183826D927D07FEFB389DE9 /* Box.swift */; };
+		30CAB3E3C20FABCF986E2EC5B92F00DF /* String+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84BEDE93B8FFCB576CAB519F7134F934 /* String+Extension.swift */; };
+		36AFD38D52549CBD1839E58B64221A00 /* Resolver.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7857D9A064FE2CDEB9C15EF409CCFAB4 /* Resolver.swift */; };
+		453EAC82E018379633229FDCEF75420B /* Pods-WorkoutTimesTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 51E7E98F2390FA0A255E961D34CD7481 /* Pods-WorkoutTimesTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4DA19D3D5DE8C39B502357D1795ADF9C /* Resolver+Get.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7392BD767C80F16786937B0EEDB66635 /* Resolver+Get.swift */; };
+		52D29E21A2F65C26A279DFED83B8E0A3 /* Resolver+Composable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CCB1C69EAF4CECBAC57FB7437D9C119 /* Resolver+Composable.swift */; };
+		52F61068D39AF703A5FD6AD38A14A8BC /* Firebolt.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDE0AD8EBB7CF133D1BFD2A43DB735EF /* Firebolt.swift */; };
+		57614000321D0981D9EE6424C6296C4D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		677F1045CEFDFD849845599B40ABCA2D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		6C45B1FB0B312D091DBC11584DF4B015 /* Get.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F20A7C4479674332AD403A5A28D9E79 /* Get.swift */; };
+		6E632305E17A3DA8B2D749EE81B95BDE /* Typealias.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED0EA31C5563EAF91C6391622E86ECC3 /* Typealias.swift */; };
+		76008CCA77E394455EBAB3746C420D9F /* Pods-WorkoutTimes-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 498BE13394CA10078644DDC26B9D8BFA /* Pods-WorkoutTimes-dummy.m */; };
+		81948E74D3C74407275DDF588025824B /* SwiftResolverError.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC6AF2463FF7FB936A87481270AB08E8 /* SwiftResolverError.swift */; };
+		A7C3AB7574DD36EF9E31DB41C8DCEBB6 /* GlobalResolver.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5D2F2B8A0D6FCB2C4B127840C40EF46 /* GlobalResolver.swift */; };
+		B465F12F6D5C786F605EED42BE9C5A7F /* Logger.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D4A6065C6120C23242DFC5D65B37428 /* Logger.swift */; };
+		B9BCD805E6E69A5093136BA049E678BA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		C03726A98DEF53C3E8FBADB5D0EDCDEA /* Firebolt-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E55EE56FA8842288205BBAD67BC338ED /* Firebolt-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D21C1540066AFFEC5A0FF72F8BC8A8E2 /* Resolver+Register.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA240C8E39DA85EC9B49A9403E1108A2 /* Resolver+Register.swift */; };
+		D97CEE82F08F980A263323157017C521 /* Pods-WorkoutTimesTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = AB98F4286CDDE9920CD285A4065971C7 /* Pods-WorkoutTimesTests-dummy.m */; };
+		E19F5B0A166D59FFE45ECAD61007AE9A /* InstanceProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFAE0D30D93964B3722E973D5F3EDB81 /* InstanceProtocol.swift */; };
+		FD69495AFA8CDBEC111BB4E2F4A59A6D /* Pods-WorkoutTimes-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E42882CBB91A892EAF2E8FCDD04A8E7E /* Pods-WorkoutTimes-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		0C7709DE45ABEB7E994042E659009727 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 554E8F77FE484E7B866951909BC634B7;
+			remoteInfo = "Pods-WorkoutTimes";
+		};
+		431530DB5EEF8D7E2EE892AED2B5BB81 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 195EA343917B74A5ECFA267FD24E2674;
+			remoteInfo = Firebolt;
+		};
+		6B68E0C9FCBE95041C13B1CCCCCA5885 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 195EA343917B74A5ECFA267FD24E2674;
+			remoteInfo = Firebolt;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		064B81CDA51E120FA9896D379DA9F29F /* MockResolver.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MockResolver.swift; path = Sources/Firebolt/Subclass/MockResolver.swift; sourceTree = "<group>"; };
+		086C4D27A60D9F685C3C7C2DA533FD42 /* Pods-WorkoutTimes-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-WorkoutTimes-acknowledgements.plist"; sourceTree = "<group>"; };
+		0CCB1C69EAF4CECBAC57FB7437D9C119 /* Resolver+Composable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Resolver+Composable.swift"; path = "Sources/Firebolt/Extension/Resolver+Composable.swift"; sourceTree = "<group>"; };
+		143848557183826D927D07FEFB389DE9 /* Box.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Box.swift; path = Sources/Firebolt/Utility/Box.swift; sourceTree = "<group>"; };
+		1E5B65A5A0DCF48C4E1BD50DA11E16AB /* Pods_WorkoutTimesTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_WorkoutTimesTests.framework; path = "Pods-WorkoutTimesTests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		22D812AD9471F8D7B9D3461E70A5CD06 /* Pods-WorkoutTimesTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-WorkoutTimesTests.modulemap"; sourceTree = "<group>"; };
+		2669144D8672FAF279B4AA2D118347E2 /* Firebolt.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Firebolt.framework; path = Firebolt.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2D4A6065C6120C23242DFC5D65B37428 /* Logger.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Logger.swift; path = Sources/Firebolt/Utility/Logger.swift; sourceTree = "<group>"; };
+		3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		35767F51A64393B6A91A80F34C77AB4B /* Pods-WorkoutTimesTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-WorkoutTimesTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		48585E182BA55C6AE0A0FB5671D5B8A0 /* Pods-WorkoutTimes-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-WorkoutTimes-frameworks.sh"; sourceTree = "<group>"; };
+		498BE13394CA10078644DDC26B9D8BFA /* Pods-WorkoutTimes-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-WorkoutTimes-dummy.m"; sourceTree = "<group>"; };
+		51E7E98F2390FA0A255E961D34CD7481 /* Pods-WorkoutTimesTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-WorkoutTimesTests-umbrella.h"; sourceTree = "<group>"; };
+		5D72D82CE2E00277F5F4DC622DC37DFA /* Pods-WorkoutTimesTests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-WorkoutTimesTests-Info.plist"; sourceTree = "<group>"; };
+		62D05DBC9271767D1F24C3E110B73A14 /* Firebolt-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Firebolt-dummy.m"; sourceTree = "<group>"; };
+		6F20A7C4479674332AD403A5A28D9E79 /* Get.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Get.swift; path = Sources/Firebolt/Utility/Get.swift; sourceTree = "<group>"; };
+		71AB4069844983870ECCBDCD6A0257B3 /* Firebolt-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Firebolt-Info.plist"; sourceTree = "<group>"; };
+		7392BD767C80F16786937B0EEDB66635 /* Resolver+Get.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Resolver+Get.swift"; path = "Sources/Firebolt/Extension/Resolver+Get.swift"; sourceTree = "<group>"; };
+		7857D9A064FE2CDEB9C15EF409CCFAB4 /* Resolver.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Resolver.swift; path = Sources/Firebolt/Resolver.swift; sourceTree = "<group>"; };
+		82B6B7F497CB0843F7F36A2D8DEEC965 /* Pods-WorkoutTimes.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-WorkoutTimes.debug.xcconfig"; sourceTree = "<group>"; };
+		84BEDE93B8FFCB576CAB519F7134F934 /* String+Extension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "String+Extension.swift"; path = "Sources/Firebolt/Extension/String+Extension.swift"; sourceTree = "<group>"; };
+		96974281DEECCBC95E91045DC6E4A5C5 /* Firebolt.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = Firebolt.modulemap; sourceTree = "<group>"; };
+		99BBD6988AC3E8D6EE6DE3CAEFB24921 /* Pods-WorkoutTimesTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-WorkoutTimesTests.debug.xcconfig"; sourceTree = "<group>"; };
+		99D6B730446CE074AD8A98DA7BE34B4F /* Pods-WorkoutTimes.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-WorkoutTimes.release.xcconfig"; sourceTree = "<group>"; };
+		9A888EBCC516241126F9E3FFDE027A60 /* Pods-WorkoutTimesTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-WorkoutTimesTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A48729F9D5287B8F0DA6261903BEEB51 /* Pods-WorkoutTimesTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-WorkoutTimesTests.release.xcconfig"; sourceTree = "<group>"; };
+		A5D2F2B8A0D6FCB2C4B127840C40EF46 /* GlobalResolver.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = GlobalResolver.swift; path = Sources/Firebolt/Subclass/GlobalResolver.swift; sourceTree = "<group>"; };
+		A6EE3479629EDC2C7984684EE001048E /* Pods-WorkoutTimesTests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-WorkoutTimesTests-frameworks.sh"; sourceTree = "<group>"; };
+		AB98F4286CDDE9920CD285A4065971C7 /* Pods-WorkoutTimesTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-WorkoutTimesTests-dummy.m"; sourceTree = "<group>"; };
+		AFAE0D30D93964B3722E973D5F3EDB81 /* InstanceProtocol.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = InstanceProtocol.swift; path = Sources/Firebolt/Utility/InstanceProtocol.swift; sourceTree = "<group>"; };
+		BF9395A55A27BB343C85A7571A635FD1 /* Pods-WorkoutTimes-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-WorkoutTimes-Info.plist"; sourceTree = "<group>"; };
+		CA240C8E39DA85EC9B49A9403E1108A2 /* Resolver+Register.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Resolver+Register.swift"; path = "Sources/Firebolt/Extension/Resolver+Register.swift"; sourceTree = "<group>"; };
+		CD662089355F789E25D8D1ED5342431E /* Pods-WorkoutTimes-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-WorkoutTimes-acknowledgements.markdown"; sourceTree = "<group>"; };
+		D2926A8A1A4C74E6997A1204FACB33EA /* Pods-WorkoutTimes.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-WorkoutTimes.modulemap"; sourceTree = "<group>"; };
+		D8F48232274DE4E4282127E5D6E04201 /* Firebolt.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Firebolt.release.xcconfig; sourceTree = "<group>"; };
+		DDE0AD8EBB7CF133D1BFD2A43DB735EF /* Firebolt.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Firebolt.swift; path = Sources/Firebolt/Firebolt.swift; sourceTree = "<group>"; };
+		E39B0ABAB58224C17CC200D0A4FA098A /* Firebolt-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Firebolt-prefix.pch"; sourceTree = "<group>"; };
+		E42882CBB91A892EAF2E8FCDD04A8E7E /* Pods-WorkoutTimes-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-WorkoutTimes-umbrella.h"; sourceTree = "<group>"; };
+		E55EE56FA8842288205BBAD67BC338ED /* Firebolt-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Firebolt-umbrella.h"; sourceTree = "<group>"; };
+		ED0EA31C5563EAF91C6391622E86ECC3 /* Typealias.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Typealias.swift; path = Sources/Firebolt/Helper/Typealias.swift; sourceTree = "<group>"; };
+		ED53DD0B023DCA07195D332B4F1882B8 /* Pods_WorkoutTimes.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_WorkoutTimes.framework; path = "Pods-WorkoutTimes.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F01222FF9AB5B13BDDFFA56EB1C66E4F /* ResolverProtocol.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ResolverProtocol.swift; path = Sources/Firebolt/Protocol/ResolverProtocol.swift; sourceTree = "<group>"; };
+		FC6AF2463FF7FB936A87481270AB08E8 /* SwiftResolverError.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SwiftResolverError.swift; path = Sources/Firebolt/Error/SwiftResolverError.swift; sourceTree = "<group>"; };
+		FEE1139992531C86295A02E5B7353CB0 /* Firebolt.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Firebolt.debug.xcconfig; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8A4E3842DE3AD66788D2CCAF6CD8C6C0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				677F1045CEFDFD849845599B40ABCA2D /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AC39A9EDDCE8B31C8E746F91B95372D4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				57614000321D0981D9EE6424C6296C4D /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FB933BD4BC40D09079F6BE4BE0D45763 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B9BCD805E6E69A5093136BA049E678BA /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2A373445E4DC9A84134D4A2B9AF7A612 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				F6A4ED1FFE4B0E5639ABB378BD6F3544 /* Pods-WorkoutTimes */,
+				91E7A8FC1D87076C4C5652003BE57531 /* Pods-WorkoutTimesTests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		3001D186ECE587161DEC6FC5FD40FAD8 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				96974281DEECCBC95E91045DC6E4A5C5 /* Firebolt.modulemap */,
+				62D05DBC9271767D1F24C3E110B73A14 /* Firebolt-dummy.m */,
+				71AB4069844983870ECCBDCD6A0257B3 /* Firebolt-Info.plist */,
+				E39B0ABAB58224C17CC200D0A4FA098A /* Firebolt-prefix.pch */,
+				E55EE56FA8842288205BBAD67BC338ED /* Firebolt-umbrella.h */,
+				FEE1139992531C86295A02E5B7353CB0 /* Firebolt.debug.xcconfig */,
+				D8F48232274DE4E4282127E5D6E04201 /* Firebolt.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/Firebolt";
+			sourceTree = "<group>";
+		};
+		7FDB8A13910CD44DBC29A3EE96F9509E /* Firebolt */ = {
+			isa = PBXGroup;
+			children = (
+				143848557183826D927D07FEFB389DE9 /* Box.swift */,
+				DDE0AD8EBB7CF133D1BFD2A43DB735EF /* Firebolt.swift */,
+				6F20A7C4479674332AD403A5A28D9E79 /* Get.swift */,
+				A5D2F2B8A0D6FCB2C4B127840C40EF46 /* GlobalResolver.swift */,
+				AFAE0D30D93964B3722E973D5F3EDB81 /* InstanceProtocol.swift */,
+				2D4A6065C6120C23242DFC5D65B37428 /* Logger.swift */,
+				064B81CDA51E120FA9896D379DA9F29F /* MockResolver.swift */,
+				7857D9A064FE2CDEB9C15EF409CCFAB4 /* Resolver.swift */,
+				0CCB1C69EAF4CECBAC57FB7437D9C119 /* Resolver+Composable.swift */,
+				7392BD767C80F16786937B0EEDB66635 /* Resolver+Get.swift */,
+				CA240C8E39DA85EC9B49A9403E1108A2 /* Resolver+Register.swift */,
+				F01222FF9AB5B13BDDFFA56EB1C66E4F /* ResolverProtocol.swift */,
+				84BEDE93B8FFCB576CAB519F7134F934 /* String+Extension.swift */,
+				FC6AF2463FF7FB936A87481270AB08E8 /* SwiftResolverError.swift */,
+				ED0EA31C5563EAF91C6391622E86ECC3 /* Typealias.swift */,
+				3001D186ECE587161DEC6FC5FD40FAD8 /* Support Files */,
+			);
+			name = Firebolt;
+			path = Firebolt;
+			sourceTree = "<group>";
+		};
+		86C9BD09E5579D9514C3FA0FAEEF7323 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2669144D8672FAF279B4AA2D118347E2 /* Firebolt.framework */,
+				ED53DD0B023DCA07195D332B4F1882B8 /* Pods_WorkoutTimes.framework */,
+				1E5B65A5A0DCF48C4E1BD50DA11E16AB /* Pods_WorkoutTimesTests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		91E7A8FC1D87076C4C5652003BE57531 /* Pods-WorkoutTimesTests */ = {
+			isa = PBXGroup;
+			children = (
+				22D812AD9471F8D7B9D3461E70A5CD06 /* Pods-WorkoutTimesTests.modulemap */,
+				35767F51A64393B6A91A80F34C77AB4B /* Pods-WorkoutTimesTests-acknowledgements.markdown */,
+				9A888EBCC516241126F9E3FFDE027A60 /* Pods-WorkoutTimesTests-acknowledgements.plist */,
+				AB98F4286CDDE9920CD285A4065971C7 /* Pods-WorkoutTimesTests-dummy.m */,
+				A6EE3479629EDC2C7984684EE001048E /* Pods-WorkoutTimesTests-frameworks.sh */,
+				5D72D82CE2E00277F5F4DC622DC37DFA /* Pods-WorkoutTimesTests-Info.plist */,
+				51E7E98F2390FA0A255E961D34CD7481 /* Pods-WorkoutTimesTests-umbrella.h */,
+				99BBD6988AC3E8D6EE6DE3CAEFB24921 /* Pods-WorkoutTimesTests.debug.xcconfig */,
+				A48729F9D5287B8F0DA6261903BEEB51 /* Pods-WorkoutTimesTests.release.xcconfig */,
+			);
+			name = "Pods-WorkoutTimesTests";
+			path = "Target Support Files/Pods-WorkoutTimesTests";
+			sourceTree = "<group>";
+		};
+		97E9881F0C25426336F7D82FD860EAF7 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				7FDB8A13910CD44DBC29A3EE96F9509E /* Firebolt */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		C0834CEBB1379A84116EF29F93051C60 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				97E9881F0C25426336F7D82FD860EAF7 /* Pods */,
+				86C9BD09E5579D9514C3FA0FAEEF7323 /* Products */,
+				2A373445E4DC9A84134D4A2B9AF7A612 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C0834CEBB1379A84116EF29F93051C60 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F6A4ED1FFE4B0E5639ABB378BD6F3544 /* Pods-WorkoutTimes */ = {
+			isa = PBXGroup;
+			children = (
+				D2926A8A1A4C74E6997A1204FACB33EA /* Pods-WorkoutTimes.modulemap */,
+				CD662089355F789E25D8D1ED5342431E /* Pods-WorkoutTimes-acknowledgements.markdown */,
+				086C4D27A60D9F685C3C7C2DA533FD42 /* Pods-WorkoutTimes-acknowledgements.plist */,
+				498BE13394CA10078644DDC26B9D8BFA /* Pods-WorkoutTimes-dummy.m */,
+				48585E182BA55C6AE0A0FB5671D5B8A0 /* Pods-WorkoutTimes-frameworks.sh */,
+				BF9395A55A27BB343C85A7571A635FD1 /* Pods-WorkoutTimes-Info.plist */,
+				E42882CBB91A892EAF2E8FCDD04A8E7E /* Pods-WorkoutTimes-umbrella.h */,
+				82B6B7F497CB0843F7F36A2D8DEEC965 /* Pods-WorkoutTimes.debug.xcconfig */,
+				99D6B730446CE074AD8A98DA7BE34B4F /* Pods-WorkoutTimes.release.xcconfig */,
+			);
+			name = "Pods-WorkoutTimes";
+			path = "Target Support Files/Pods-WorkoutTimes";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		706B902008B2B3F2BF6C73CD860515FF /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FD69495AFA8CDBEC111BB4E2F4A59A6D /* Pods-WorkoutTimes-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7ECCCBE920FDAF0B106980C0C9A54CA4 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				453EAC82E018379633229FDCEF75420B /* Pods-WorkoutTimesTests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C1C7B2BF237005CBBF51E5208EFF3A11 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C03726A98DEF53C3E8FBADB5D0EDCDEA /* Firebolt-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		195EA343917B74A5ECFA267FD24E2674 /* Firebolt */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1B47F028875723F8DFF8E93385577548 /* Build configuration list for PBXNativeTarget "Firebolt" */;
+			buildPhases = (
+				C1C7B2BF237005CBBF51E5208EFF3A11 /* Headers */,
+				071DAABEC224A3BB6DA079E75BEEB08D /* Sources */,
+				8A4E3842DE3AD66788D2CCAF6CD8C6C0 /* Frameworks */,
+				42ACE9652DC15510ADBAFDDBB0F6A42D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Firebolt;
+			productName = Firebolt;
+			productReference = 2669144D8672FAF279B4AA2D118347E2 /* Firebolt.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		554E8F77FE484E7B866951909BC634B7 /* Pods-WorkoutTimes */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 389A7F583E7636F34D381072BC32E62F /* Build configuration list for PBXNativeTarget "Pods-WorkoutTimes" */;
+			buildPhases = (
+				706B902008B2B3F2BF6C73CD860515FF /* Headers */,
+				8AF6B3C81DA2CE0D7132ACA45CE60493 /* Sources */,
+				FB933BD4BC40D09079F6BE4BE0D45763 /* Frameworks */,
+				A04263E217A091C52E02520421FF6E71 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2E2740148BA23D25CC419AB1AD11D6FC /* PBXTargetDependency */,
+			);
+			name = "Pods-WorkoutTimes";
+			productName = "Pods-WorkoutTimes";
+			productReference = ED53DD0B023DCA07195D332B4F1882B8 /* Pods_WorkoutTimes.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		C6DA972F4DDCC8D2A708BBD3FE58A42B /* Pods-WorkoutTimesTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 07CB78CCBCB3BE69788A541CCE5A39A9 /* Build configuration list for PBXNativeTarget "Pods-WorkoutTimesTests" */;
+			buildPhases = (
+				7ECCCBE920FDAF0B106980C0C9A54CA4 /* Headers */,
+				D50E47C481B264EBCC987B2AA88A9F35 /* Sources */,
+				AC39A9EDDCE8B31C8E746F91B95372D4 /* Frameworks */,
+				E1799C2617BC5E90AD8F67699FEE17A6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4B7C44B63207185C083666D01F28C54F /* PBXTargetDependency */,
+				E30B7E992C1CBCE93457CFDE475B0E96 /* PBXTargetDependency */,
+			);
+			name = "Pods-WorkoutTimesTests";
+			productName = "Pods-WorkoutTimesTests";
+			productReference = 1E5B65A5A0DCF48C4E1BD50DA11E16AB /* Pods_WorkoutTimesTests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 10.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 86C9BD09E5579D9514C3FA0FAEEF7323 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				195EA343917B74A5ECFA267FD24E2674 /* Firebolt */,
+				554E8F77FE484E7B866951909BC634B7 /* Pods-WorkoutTimes */,
+				C6DA972F4DDCC8D2A708BBD3FE58A42B /* Pods-WorkoutTimesTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		42ACE9652DC15510ADBAFDDBB0F6A42D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A04263E217A091C52E02520421FF6E71 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E1799C2617BC5E90AD8F67699FEE17A6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		071DAABEC224A3BB6DA079E75BEEB08D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				30B9AC0483EE59691EBD2C1623D6A1F0 /* Box.swift in Sources */,
+				07B16B44BD2C305CA075C3CE64FD809E /* Firebolt-dummy.m in Sources */,
+				52F61068D39AF703A5FD6AD38A14A8BC /* Firebolt.swift in Sources */,
+				6C45B1FB0B312D091DBC11584DF4B015 /* Get.swift in Sources */,
+				A7C3AB7574DD36EF9E31DB41C8DCEBB6 /* GlobalResolver.swift in Sources */,
+				E19F5B0A166D59FFE45ECAD61007AE9A /* InstanceProtocol.swift in Sources */,
+				B465F12F6D5C786F605EED42BE9C5A7F /* Logger.swift in Sources */,
+				05CDF14D3D2AC162B1D60E2401234B29 /* MockResolver.swift in Sources */,
+				52D29E21A2F65C26A279DFED83B8E0A3 /* Resolver+Composable.swift in Sources */,
+				4DA19D3D5DE8C39B502357D1795ADF9C /* Resolver+Get.swift in Sources */,
+				D21C1540066AFFEC5A0FF72F8BC8A8E2 /* Resolver+Register.swift in Sources */,
+				36AFD38D52549CBD1839E58B64221A00 /* Resolver.swift in Sources */,
+				24ACDE78AC2E2476403CDEB323DA8652 /* ResolverProtocol.swift in Sources */,
+				30CAB3E3C20FABCF986E2EC5B92F00DF /* String+Extension.swift in Sources */,
+				81948E74D3C74407275DDF588025824B /* SwiftResolverError.swift in Sources */,
+				6E632305E17A3DA8B2D749EE81B95BDE /* Typealias.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8AF6B3C81DA2CE0D7132ACA45CE60493 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				76008CCA77E394455EBAB3746C420D9F /* Pods-WorkoutTimes-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D50E47C481B264EBCC987B2AA88A9F35 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D97CEE82F08F980A263323157017C521 /* Pods-WorkoutTimesTests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2E2740148BA23D25CC419AB1AD11D6FC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Firebolt;
+			target = 195EA343917B74A5ECFA267FD24E2674 /* Firebolt */;
+			targetProxy = 431530DB5EEF8D7E2EE892AED2B5BB81 /* PBXContainerItemProxy */;
+		};
+		4B7C44B63207185C083666D01F28C54F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Firebolt;
+			target = 195EA343917B74A5ECFA267FD24E2674 /* Firebolt */;
+			targetProxy = 6B68E0C9FCBE95041C13B1CCCCCA5885 /* PBXContainerItemProxy */;
+		};
+		E30B7E992C1CBCE93457CFDE475B0E96 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-WorkoutTimes";
+			target = 554E8F77FE484E7B866951909BC634B7 /* Pods-WorkoutTimes */;
+			targetProxy = 0C7709DE45ABEB7E994042E659009727 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		1422B121EAEAEA11307496903FA623C6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		426499AC87E273DDAD0ABAFE2B67D68E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A48729F9D5287B8F0DA6261903BEEB51 /* Pods-WorkoutTimesTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-WorkoutTimesTests/Pods-WorkoutTimesTests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-WorkoutTimesTests/Pods-WorkoutTimesTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		46B1763B8F4CE2F68D5C57C4C4E7E26C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 82B6B7F497CB0843F7F36A2D8DEEC965 /* Pods-WorkoutTimes.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-WorkoutTimes/Pods-WorkoutTimes-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-WorkoutTimes/Pods-WorkoutTimes.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		50FE95A8B9642CB1F953D45952BD4AA3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D8F48232274DE4E4282127E5D6E04201 /* Firebolt.release.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/Firebolt/Firebolt-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Firebolt/Firebolt-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/Firebolt/Firebolt.modulemap";
+				PRODUCT_MODULE_NAME = Firebolt;
+				PRODUCT_NAME = Firebolt;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		9288B456370ACBEA5AD0513EA27276E2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 99D6B730446CE074AD8A98DA7BE34B4F /* Pods-WorkoutTimes.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-WorkoutTimes/Pods-WorkoutTimes-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-WorkoutTimes/Pods-WorkoutTimes.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		ED7888FA6713EABBF66D26A8003AD1CA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		F13ED88EB62AA023C650AF0180CAE924 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FEE1139992531C86295A02E5B7353CB0 /* Firebolt.debug.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/Firebolt/Firebolt-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Firebolt/Firebolt-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/Firebolt/Firebolt.modulemap";
+				PRODUCT_MODULE_NAME = Firebolt;
+				PRODUCT_NAME = Firebolt;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		FE4564D46B4CBC8AA9B52D91A3ED5A0E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 99BBD6988AC3E8D6EE6DE3CAEFB24921 /* Pods-WorkoutTimesTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-WorkoutTimesTests/Pods-WorkoutTimesTests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-WorkoutTimesTests/Pods-WorkoutTimesTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		07CB78CCBCB3BE69788A541CCE5A39A9 /* Build configuration list for PBXNativeTarget "Pods-WorkoutTimesTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FE4564D46B4CBC8AA9B52D91A3ED5A0E /* Debug */,
+				426499AC87E273DDAD0ABAFE2B67D68E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1B47F028875723F8DFF8E93385577548 /* Build configuration list for PBXNativeTarget "Firebolt" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F13ED88EB62AA023C650AF0180CAE924 /* Debug */,
+				50FE95A8B9642CB1F953D45952BD4AA3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		389A7F583E7636F34D381072BC32E62F /* Build configuration list for PBXNativeTarget "Pods-WorkoutTimes" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				46B1763B8F4CE2F68D5C57C4C4E7E26C /* Debug */,
+				9288B456370ACBEA5AD0513EA27276E2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ED7888FA6713EABBF66D26A8003AD1CA /* Debug */,
+				1422B121EAEAEA11307496903FA623C6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="17701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17703"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="AddTimeViewController" customModule="WorkoutTimes" customModuleProvider="target">
+            <connections>
+                <outlet property="durationTextField" destination="AHy-JV-Mvb" id="Gde-PJ-jIk"/>
+                <outlet property="nameTextField" destination="mQk-2s-gO4" id="or9-oJ-xli"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Enter duration time..." textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="AHy-JV-Mvb">
+                    <rect key="frame" x="46" y="225" width="322" height="34"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                    <textInputTraits key="textInputTraits" keyboardType="decimalPad"/>
+                </textField>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Name:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="sLl-1u-o1c">
+                    <rect key="frame" x="46" y="125" width="322" height="17"/>
+                    <fontDescription key="fontDescription" type="system" weight="light" pointSize="14"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="nop-Xt-IT2">
+                    <rect key="frame" x="338" y="289" width="30" height="30"/>
+                    <state key="normal" title="Add"/>
+                    <connections>
+                        <action selector="addTime" destination="-1" eventType="touchUpInside" id="Irg-et-8Ce"/>
+                    </connections>
+                </button>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Add New Workout Time" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="8" translatesAutoresizingMaskIntoConstraints="NO" id="keE-6r-GNu">
+                    <rect key="frame" x="30" y="74" width="354" height="21"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Duration:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="SJY-uH-Pn0">
+                    <rect key="frame" x="46" y="200" width="322" height="17"/>
+                    <fontDescription key="fontDescription" type="system" weight="light" pointSize="14"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Enter workout name..." textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="mQk-2s-gO4">
+                    <rect key="frame" x="46" y="150" width="322" height="34"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                    <textInputTraits key="textInputTraits"/>
+                </textField>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="mzc-Nd-QCs">
+                    <rect key="frame" x="46" y="289" width="48" height="30"/>
+                    <state key="normal" title="Cancel"/>
+                    <connections>
+                        <action selector="cancel" destination="-1" eventType="touchUpInside" id="tAg-V1-9F2"/>
+                    </connections>
+                </button>
+            </subviews>
+            <viewLayoutGuide key="safeArea" id="fnl-2z-Ty3"/>
+            <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+            <constraints>
+                <constraint firstItem="mzc-Nd-QCs" firstAttribute="top" secondItem="AHy-JV-Mvb" secondAttribute="bottom" constant="30" id="5fW-In-Rb6"/>
+                <constraint firstItem="mQk-2s-gO4" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" constant="46" id="5nd-kT-U1i"/>
+                <constraint firstItem="AHy-JV-Mvb" firstAttribute="top" secondItem="SJY-uH-Pn0" secondAttribute="bottom" constant="8" symbolic="YES" id="7OT-lG-RzY"/>
+                <constraint firstItem="nop-Xt-IT2" firstAttribute="top" secondItem="AHy-JV-Mvb" secondAttribute="bottom" constant="30" id="D8N-k9-8d9"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="AHy-JV-Mvb" secondAttribute="trailing" constant="46" id="FbW-bF-fsh"/>
+                <constraint firstItem="mzc-Nd-QCs" firstAttribute="leading" secondItem="AHy-JV-Mvb" secondAttribute="leading" id="Gpf-9U-xO3"/>
+                <constraint firstItem="AHy-JV-Mvb" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" constant="46" id="LLc-K9-gJ9"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="keE-6r-GNu" secondAttribute="trailing" constant="30" id="Mf1-tE-YDT"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="SJY-uH-Pn0" secondAttribute="trailing" constant="46" id="Qgy-zL-KbS"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="sLl-1u-o1c" secondAttribute="trailing" constant="46" id="REk-9V-ona"/>
+                <constraint firstItem="sLl-1u-o1c" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" constant="46" id="cx9-Fy-56N"/>
+                <constraint firstItem="nop-Xt-IT2" firstAttribute="trailing" secondItem="AHy-JV-Mvb" secondAttribute="trailing" id="d0s-aJ-2Jv"/>
+                <constraint firstItem="sLl-1u-o1c" firstAttribute="top" secondItem="keE-6r-GNu" secondAttribute="bottom" constant="30" id="fs3-zN-FoE"/>
+                <constraint firstItem="SJY-uH-Pn0" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" constant="46" id="kDG-E9-WsG"/>
+                <constraint firstItem="keE-6r-GNu" firstAttribute="top" secondItem="fnl-2z-Ty3" secondAttribute="top" constant="30" id="nFz-wb-8IP"/>
+                <constraint firstItem="keE-6r-GNu" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" constant="30" id="nXJ-MQ-HEe"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="mQk-2s-gO4" secondAttribute="trailing" constant="46" id="rc3-Km-qoG"/>
+                <constraint firstItem="mQk-2s-gO4" firstAttribute="top" secondItem="sLl-1u-o1c" secondAttribute="bottom" constant="8" symbolic="YES" id="rcC-2a-Mwx"/>
+                <constraint firstItem="SJY-uH-Pn0" firstAttribute="top" secondItem="mQk-2s-gO4" secondAttribute="bottom" constant="16" id="zuk-63-ixv"/>
+            </constraints>
+            <point key="canvasLocation" x="137.68115942028987" y="118.52678571428571"/>
+        </view>
+    </objects>
+    <resources>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>

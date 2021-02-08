@@ -1,0 +1,621 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		45A9CA9897F58A53B1854523 /* Pods_WorkoutTimes.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D1B8AD6062739F0F17CAA800 /* Pods_WorkoutTimes.framework */; };
+		58473BBF25CB981700205F96 /* WorkoutTimeListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58473BB925CB981700205F96 /* WorkoutTimeListViewController.swift */; };
+		58473BC025CB981700205F96 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58473BBA25CB981700205F96 /* SceneDelegate.swift */; };
+		58473BC125CB981700205F96 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58473BBB25CB981700205F96 /* AppDelegate.swift */; };
+		58473BC825CB984000205F96 /* WorkoutTimesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58473BC725CB984000205F96 /* WorkoutTimesTests.swift */; };
+		58B113B025D0938100854060 /* WorkoutTimeListViewController.xib in Sources */ = {isa = PBXBuildFile; fileRef = 58E9145725D08BA600F524AA /* WorkoutTimeListViewController.xib */; };
+		58B113C025D0A05C00854060 /* WTTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58B113BE25D0A05C00854060 /* WTTableViewCell.swift */; };
+		58B113C525D0A19600854060 /* WTTableViewCell.xib in Sources */ = {isa = PBXBuildFile; fileRef = 58B113BF25D0A05C00854060 /* WTTableViewCell.xib */; };
+		58B113CE25D0B7E400854060 /* WorkoutTimeDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58B113CC25D0B7E400854060 /* WorkoutTimeDetailViewController.swift */; };
+		58B113D125D0BD8C00854060 /* WorkoutTimeDetailViewController.xib in Sources */ = {isa = PBXBuildFile; fileRef = 58B113CD25D0B7E400854060 /* WorkoutTimeDetailViewController.xib */; };
+		58B113D625D0D02800854060 /* AddTimeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58B113D425D0D02800854060 /* AddTimeViewController.swift */; };
+		58B113D925D0D03A00854060 /* AddTimeViewController.xib in Sources */ = {isa = PBXBuildFile; fileRef = 58B113D525D0D02800854060 /* AddTimeViewController.xib */; };
+		58B1142025D0F25800854060 /* CoreDataStack.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58B1141F25D0F25800854060 /* CoreDataStack.swift */; };
+		58B1142525D0F3BF00854060 /* TestCoreDataStack.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58B1142425D0F3BF00854060 /* TestCoreDataStack.swift */; };
+		58E9144225CE19BF00F524AA /* WTModel.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 58E9144025CE19BF00F524AA /* WTModel.xcdatamodeld */; };
+		58E9144925CE21FB00F524AA /* DBManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58E9144825CE21FB00F524AA /* DBManager.swift */; };
+		58E9145325D0886E00F524AA /* TimesManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58E9145225D0886E00F524AA /* TimesManager.swift */; };
+		CE44E9CAA957325A8E6EAD49 /* Pods_WorkoutTimesTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7A4C52230566E9A61119E3BB /* Pods_WorkoutTimesTests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		58B1141125D0EE9900854060 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5E6EC1982646FA5E377D6A0A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8CD434B35141C1B1EBC1BAE7;
+			remoteInfo = WorkoutTimes;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		4286F6FF40D318566E38A2F6 /* Pods-WorkoutTimesTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WorkoutTimesTests.release.xcconfig"; path = "Target Support Files/Pods-WorkoutTimesTests/Pods-WorkoutTimesTests.release.xcconfig"; sourceTree = "<group>"; };
+		4E3D0FB22CC2281531E03736 /* Pods-WorkoutTimes.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WorkoutTimes.release.xcconfig"; path = "Target Support Files/Pods-WorkoutTimes/Pods-WorkoutTimes.release.xcconfig"; sourceTree = "<group>"; };
+		58473BB825CB981700205F96 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		58473BB925CB981700205F96 /* WorkoutTimeListViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WorkoutTimeListViewController.swift; sourceTree = "<group>"; };
+		58473BBA25CB981700205F96 /* SceneDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		58473BBB25CB981700205F96 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		58473BBC25CB981700205F96 /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
+		58473BBE25CB981700205F96 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		58473BC625CB984000205F96 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		58473BC725CB984000205F96 /* WorkoutTimesTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WorkoutTimesTests.swift; sourceTree = "<group>"; };
+		58B113BE25D0A05C00854060 /* WTTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WTTableViewCell.swift; sourceTree = "<group>"; };
+		58B113BF25D0A05C00854060 /* WTTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = WTTableViewCell.xib; sourceTree = "<group>"; };
+		58B113CC25D0B7E400854060 /* WorkoutTimeDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorkoutTimeDetailViewController.swift; sourceTree = "<group>"; };
+		58B113CD25D0B7E400854060 /* WorkoutTimeDetailViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = WorkoutTimeDetailViewController.xib; sourceTree = "<group>"; };
+		58B113D425D0D02800854060 /* AddTimeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddTimeViewController.swift; sourceTree = "<group>"; };
+		58B113D525D0D02800854060 /* AddTimeViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AddTimeViewController.xib; sourceTree = "<group>"; };
+		58B1141F25D0F25800854060 /* CoreDataStack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataStack.swift; sourceTree = "<group>"; };
+		58B1142425D0F3BF00854060 /* TestCoreDataStack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestCoreDataStack.swift; sourceTree = "<group>"; };
+		58E9144125CE19BF00F524AA /* WTModel.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = WTModel.xcdatamodel; sourceTree = "<group>"; };
+		58E9144825CE21FB00F524AA /* DBManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DBManager.swift; sourceTree = "<group>"; };
+		58E9145225D0886E00F524AA /* TimesManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimesManager.swift; sourceTree = "<group>"; };
+		58E9145725D08BA600F524AA /* WorkoutTimeListViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = WorkoutTimeListViewController.xib; sourceTree = "<group>"; };
+		7A4C52230566E9A61119E3BB /* Pods_WorkoutTimesTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WorkoutTimesTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		852BADB817C53B90C2C120AA /* Pods-WorkoutTimesTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WorkoutTimesTests.debug.xcconfig"; path = "Target Support Files/Pods-WorkoutTimesTests/Pods-WorkoutTimesTests.debug.xcconfig"; sourceTree = "<group>"; };
+		A229F1CBBF0FC08D0CA7FFAB /* Pods-WorkoutTimes.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WorkoutTimes.debug.xcconfig"; path = "Target Support Files/Pods-WorkoutTimes/Pods-WorkoutTimes.debug.xcconfig"; sourceTree = "<group>"; };
+		C1FC4A49D711F31EFD112C64 /* WorkoutTimes.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WorkoutTimes.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D1B8AD6062739F0F17CAA800 /* Pods_WorkoutTimes.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WorkoutTimes.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F8DF90AFA192B88E34C8C632 /* WorkoutTimesTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WorkoutTimesTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		566F5492FE64E265E975A807 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				45A9CA9897F58A53B1854523 /* Pods_WorkoutTimes.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8FCCF55635D197B67F129303 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE44E9CAA957325A8E6EAD49 /* Pods_WorkoutTimesTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5431F1B69131B58B3975341C /* WorkoutTimes */ = {
+			isa = PBXGroup;
+			children = (
+				58E913DD25CE171500F524AA /* Model */,
+				58473BBB25CB981700205F96 /* AppDelegate.swift */,
+				58473BB825CB981700205F96 /* Assets.xcassets */,
+				58473BBE25CB981700205F96 /* Info.plist */,
+				58473BBC25CB981700205F96 /* LaunchScreen.storyboard */,
+				58473BBA25CB981700205F96 /* SceneDelegate.swift */,
+				58473BB925CB981700205F96 /* WorkoutTimeListViewController.swift */,
+				58E9145725D08BA600F524AA /* WorkoutTimeListViewController.xib */,
+				58B113BE25D0A05C00854060 /* WTTableViewCell.swift */,
+				58B113BF25D0A05C00854060 /* WTTableViewCell.xib */,
+				58B113D425D0D02800854060 /* AddTimeViewController.swift */,
+				58B113D525D0D02800854060 /* AddTimeViewController.xib */,
+				58B113CC25D0B7E400854060 /* WorkoutTimeDetailViewController.swift */,
+				58B113CD25D0B7E400854060 /* WorkoutTimeDetailViewController.xib */,
+			);
+			path = WorkoutTimes;
+			sourceTree = "<group>";
+		};
+		58E913DD25CE171500F524AA /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				58E9144025CE19BF00F524AA /* WTModel.xcdatamodeld */,
+				58E9144825CE21FB00F524AA /* DBManager.swift */,
+				58E9145225D0886E00F524AA /* TimesManager.swift */,
+				58B1141F25D0F25800854060 /* CoreDataStack.swift */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		7A441C8D55FBCDCA7691906B = {
+			isa = PBXGroup;
+			children = (
+				5431F1B69131B58B3975341C /* WorkoutTimes */,
+				E48FE25DA2A2BA4FB9206E50 /* WorkoutTimesTests */,
+				AD7E9BDF40168C4E882E9D9B /* Products */,
+				CD8CF4AFDF5A6FE25FB0D619 /* Pods */,
+				A14C979B62CB78668CEDC395 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		A14C979B62CB78668CEDC395 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D1B8AD6062739F0F17CAA800 /* Pods_WorkoutTimes.framework */,
+				7A4C52230566E9A61119E3BB /* Pods_WorkoutTimesTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		AD7E9BDF40168C4E882E9D9B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C1FC4A49D711F31EFD112C64 /* WorkoutTimes.app */,
+				F8DF90AFA192B88E34C8C632 /* WorkoutTimesTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CD8CF4AFDF5A6FE25FB0D619 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A229F1CBBF0FC08D0CA7FFAB /* Pods-WorkoutTimes.debug.xcconfig */,
+				4E3D0FB22CC2281531E03736 /* Pods-WorkoutTimes.release.xcconfig */,
+				852BADB817C53B90C2C120AA /* Pods-WorkoutTimesTests.debug.xcconfig */,
+				4286F6FF40D318566E38A2F6 /* Pods-WorkoutTimesTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		E48FE25DA2A2BA4FB9206E50 /* WorkoutTimesTests */ = {
+			isa = PBXGroup;
+			children = (
+				58473BC625CB984000205F96 /* Info.plist */,
+				58473BC725CB984000205F96 /* WorkoutTimesTests.swift */,
+				58B1142425D0F3BF00854060 /* TestCoreDataStack.swift */,
+			);
+			path = WorkoutTimesTests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		06F437A545DBC423AF96CACC /* WorkoutTimesTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F5349D83BF595B7DCC8A0DFE /* Build configuration list for PBXNativeTarget "WorkoutTimesTests" */;
+			buildPhases = (
+				750E14FF91FFB107158BC37C /* [CP] Check Pods Manifest.lock */,
+				5A1EDE1260F3C517DFEE4CD0 /* Sources */,
+				8FCCF55635D197B67F129303 /* Frameworks */,
+				9BED1902BECC36DC8149B7BE /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				58B1141225D0EE9900854060 /* PBXTargetDependency */,
+			);
+			name = WorkoutTimesTests;
+			productName = WorkoutTimesTests;
+			productReference = F8DF90AFA192B88E34C8C632 /* WorkoutTimesTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		8CD434B35141C1B1EBC1BAE7 /* WorkoutTimes */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E131020BA70FA2C3B4669EA4 /* Build configuration list for PBXNativeTarget "WorkoutTimes" */;
+			buildPhases = (
+				68D6C9B2231ADD79EB21188E /* [CP] Check Pods Manifest.lock */,
+				0A30860B4807339DB2589C06 /* Sources */,
+				566F5492FE64E265E975A807 /* Frameworks */,
+				29B48BAC1E7FA6B49993D5D2 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WorkoutTimes;
+			productName = WorkoutTimes;
+			productReference = C1FC4A49D711F31EFD112C64 /* WorkoutTimes.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5E6EC1982646FA5E377D6A0A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1200;
+				TargetAttributes = {
+					06F437A545DBC423AF96CACC = {
+						LastSwiftMigration = 1230;
+						TestTargetID = 8CD434B35141C1B1EBC1BAE7;
+					};
+					8CD434B35141C1B1EBC1BAE7 = {
+						LastSwiftMigration = 1230;
+					};
+				};
+			};
+			buildConfigurationList = BD098966EEF7BB2F5EFEAB82 /* Build configuration list for PBXProject "WorkoutTimes" */;
+			compatibilityVersion = "Xcode 10.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = 7A441C8D55FBCDCA7691906B;
+			productRefGroup = AD7E9BDF40168C4E882E9D9B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8CD434B35141C1B1EBC1BAE7 /* WorkoutTimes */,
+				06F437A545DBC423AF96CACC /* WorkoutTimesTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		29B48BAC1E7FA6B49993D5D2 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-WorkoutTimes/Pods-WorkoutTimes-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-WorkoutTimes/Pods-WorkoutTimes-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-WorkoutTimes/Pods-WorkoutTimes-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		68D6C9B2231ADD79EB21188E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-WorkoutTimes-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		750E14FF91FFB107158BC37C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-WorkoutTimesTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9BED1902BECC36DC8149B7BE /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-WorkoutTimesTests/Pods-WorkoutTimesTests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-WorkoutTimesTests/Pods-WorkoutTimesTests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-WorkoutTimesTests/Pods-WorkoutTimesTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0A30860B4807339DB2589C06 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				58B113D925D0D03A00854060 /* AddTimeViewController.xib in Sources */,
+				58B113D125D0BD8C00854060 /* WorkoutTimeDetailViewController.xib in Sources */,
+				58B113C525D0A19600854060 /* WTTableViewCell.xib in Sources */,
+				58B113D625D0D02800854060 /* AddTimeViewController.swift in Sources */,
+				58B113B025D0938100854060 /* WorkoutTimeListViewController.xib in Sources */,
+				58E9144925CE21FB00F524AA /* DBManager.swift in Sources */,
+				58E9144225CE19BF00F524AA /* WTModel.xcdatamodeld in Sources */,
+				58B1142025D0F25800854060 /* CoreDataStack.swift in Sources */,
+				58E9145325D0886E00F524AA /* TimesManager.swift in Sources */,
+				58473BC125CB981700205F96 /* AppDelegate.swift in Sources */,
+				58473BBF25CB981700205F96 /* WorkoutTimeListViewController.swift in Sources */,
+				58B113C025D0A05C00854060 /* WTTableViewCell.swift in Sources */,
+				58473BC025CB981700205F96 /* SceneDelegate.swift in Sources */,
+				58B113CE25D0B7E400854060 /* WorkoutTimeDetailViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5A1EDE1260F3C517DFEE4CD0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				58473BC825CB984000205F96 /* WorkoutTimesTests.swift in Sources */,
+				58B1142525D0F3BF00854060 /* TestCoreDataStack.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		58B1141225D0EE9900854060 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8CD434B35141C1B1EBC1BAE7 /* WorkoutTimes */;
+			targetProxy = 58B1141125D0EE9900854060 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		1A185D5009B69A7B001FBDC8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 852BADB817C53B90C2C120AA /* Pods-WorkoutTimesTests.debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/WorkoutTimes.app/WorkoutTimes";
+				CLANG_ENABLE_MODULES = YES;
+				DEVELOPMENT_TEAM = MJL3EQACEX;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.jasonphilpy.WorkoutTimesTests;
+				PRODUCT_MODULE_NAME = "$(PRODUCT_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+			};
+			name = Debug;
+		};
+		2AD449F6DA4E4F9871604D6C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"DEBUG=1",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		316E5A237F07E470D3DC1911 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		8E2B62B60DF2CBD0528F707A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4286F6FF40D318566E38A2F6 /* Pods-WorkoutTimesTests.release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/WorkoutTimes.app/WorkoutTimes";
+				CLANG_ENABLE_MODULES = YES;
+				DEVELOPMENT_TEAM = MJL3EQACEX;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.jasonphilpy.WorkoutTimesTests;
+				PRODUCT_MODULE_NAME = "$(PRODUCT_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+			};
+			name = Release;
+		};
+		B6486A4E4D65C8D8E06B2317 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4E3D0FB22CC2281531E03736 /* Pods-WorkoutTimes.release.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				DEVELOPMENT_TEAM = MJL3EQACEX;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INFOPLIST_FILE = "$(SRCROOT)/WorkoutTimes/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.jasonphilpy.WorkoutTimes;
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		E33C4A1DE3B7B368C7127572 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A229F1CBBF0FC08D0CA7FFAB /* Pods-WorkoutTimes.debug.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				DEVELOPMENT_TEAM = MJL3EQACEX;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INFOPLIST_FILE = "$(SRCROOT)/WorkoutTimes/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.jasonphilpy.WorkoutTimes;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BD098966EEF7BB2F5EFEAB82 /* Build configuration list for PBXProject "WorkoutTimes" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2AD449F6DA4E4F9871604D6C /* Debug */,
+				316E5A237F07E470D3DC1911 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		E131020BA70FA2C3B4669EA4 /* Build configuration list for PBXNativeTarget "WorkoutTimes" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E33C4A1DE3B7B368C7127572 /* Debug */,
+				B6486A4E4D65C8D8E06B2317 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		F5349D83BF595B7DCC8A0DFE /* Build configuration list for PBXNativeTarget "WorkoutTimesTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1A185D5009B69A7B001FBDC8 /* Debug */,
+				8E2B62B60DF2CBD0528F707A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		58E9144025CE19BF00F524AA /* WTModel.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				58E9144125CE19BF00F524AA /* WTModel.xcdatamodel */,
+			);
+			currentVersion = 58E9144125CE19BF00F524AA /* WTModel.xcdatamodel */;
+			path = WTModel.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 5E6EC1982646FA5E377D6A0A /* Project object */;
+}

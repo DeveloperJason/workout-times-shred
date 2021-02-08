@@ -1,0 +1,16 @@
+name: WorkoutTimes
+options:
+  bundleIdPrefix: com.jasonphilpy
+  deploymentTarget:
+    iOS:  13.0
+targets:
+  WorkoutTimes:
+    type:  application
+    platform: iOS
+    sources:
+      - path:  WorkoutTimes
+  WorkoutTimesTests:
+    type:  bundle.unit-test
+    platform:  iOS
+    sources:
+      - path: WorkoutTimesTests
