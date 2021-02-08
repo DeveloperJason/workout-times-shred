@@ -97,16 +97,32 @@
 				58473BBE25CB981700205F96 /* Info.plist */,
 				58473BBC25CB981700205F96 /* LaunchScreen.storyboard */,
 				58473BBA25CB981700205F96 /* SceneDelegate.swift */,
-				58473BB925CB981700205F96 /* WorkoutTimeListViewController.swift */,
+				58B1145A25D10CDA00854060 /* Controllers */,
+				58B1145925D10CD000854060 /* Views */,
+			);
+			path = WorkoutTimes;
+			sourceTree = "<group>";
+		};
+		58B1145925D10CD000854060 /* Views */ = {
+			isa = PBXGroup;
+			children = (
 				58E9145725D08BA600F524AA /* WorkoutTimeListViewController.xib */,
 				58B113BE25D0A05C00854060 /* WTTableViewCell.swift */,
 				58B113BF25D0A05C00854060 /* WTTableViewCell.xib */,
-				58B113D425D0D02800854060 /* AddTimeViewController.swift */,
 				58B113D525D0D02800854060 /* AddTimeViewController.xib */,
-				58B113CC25D0B7E400854060 /* WorkoutTimeDetailViewController.swift */,
 				58B113CD25D0B7E400854060 /* WorkoutTimeDetailViewController.xib */,
 			);
-			path = WorkoutTimes;
+			name = Views;
+			sourceTree = "<group>";
+		};
+		58B1145A25D10CDA00854060 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				58473BB925CB981700205F96 /* WorkoutTimeListViewController.swift */,
+				58B113D425D0D02800854060 /* AddTimeViewController.swift */,
+				58B113CC25D0B7E400854060 /* WorkoutTimeDetailViewController.swift */,
+			);
+			name = Controllers;
 			sourceTree = "<group>";
 		};
 		58E913DD25CE171500F524AA /* Model */ = {
